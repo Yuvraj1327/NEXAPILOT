@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Env files
+.env
+*.env.local
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Alembic
+backend/alembic/*.sqlite3
+
+# Frontend (future phases)
+node_modules/
+dist/
+build/
+
+# Foundry (contracts/) — reinstalled via `forge install`, rebuilt via `forge build`
+contracts/lib/
+contracts/out/
+contracts/cache/
+contracts/broadcast/*/*/dry-run/
